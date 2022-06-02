@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tiro+Gurmukhi:ital@0;1&display=swap');
+
+body {
+  background-color: #E7EAEE;
+  font-family: 'Tiro Gurmukhi', serif;
+  font-size: 16px;
+  color: #222222;
+}
+
+h1 {
+  color: #222222;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: #84DCC6;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 16px;
+}
+
+li {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: #4B4E6D;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #84DCC6;
+}
+
+.btn-grey {
+  background-color: #4B4E6D;
+  padding: 12px 24px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  border: 0;
+  font-family: 'Tiro Gurmukhi', serif;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.btn-grey:hover {
+  background-color: #84DCC6;
+  color: white;
+  cursor: pointer;
+}
+
+.card-white {
+  background-color: white;
+  margin: 16px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  /* width: 500px; */
+  /* margin: 24px auto; */
+  border-radius: 2px;
+  text-align: center;
+}
+
+.img-circle {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.list-simple {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  margin: 8px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+    margin: 24px auto;
+    padding: 24px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+    margin: 24px auto;
+    padding: 24px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 90%;
+    margin: 8px auto;
+    padding: 16px;
+  }
+}
